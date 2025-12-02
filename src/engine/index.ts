@@ -10,6 +10,10 @@ export { cacheMiddleware } from './cacheMiddleware';
 export { createRetryMiddleware } from './retryMiddleware';
 export { createThrottleMiddleware } from './throttleMiddleware';
 
+// 新增中间件类型导出
+export type { RetryOptions } from './retryMiddleware';
+export type { ThrottleOptions } from './throttleMiddleware';
+
 // 类型导出
 export type {
   // 基础类型
